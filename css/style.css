@@ -1,0 +1,66 @@
+/* Style de base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Section d'accueil */
+#accueil {
+  background: #333;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#accueil h1 {
+  font-size: 2.5em;
+}
+
+/* Section des projets */
+#projets {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#projets .projet {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+}
+
+#projets img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Section de contact */
+#contact {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#contact form {
+  display: inline-block;
+  width: 300px;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#contact button {
+  padding: 10px 20px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
