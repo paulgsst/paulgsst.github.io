@@ -64,3 +64,18 @@ body {
   cursor: pointer;
   border-radius: 4px;
 }
+
+input[id="menuDeroulant"]{
+  background-color: aqua;
+  border-radius: 20%;
+  border: none;
+}
+
+/*input[id="menuDeroulant"]:hover{
+  background-color: red;
+  text-shadow: 50%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 150px;
+  
+}
+*/

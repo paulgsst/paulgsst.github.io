@@ -1,6 +1,5 @@
 <?php 
 include 'Include/constantes.php';
-
 if(!isset($_REQUEST['gestion'])){
     $_REQUEST['gestion'] = V_ACCUEIL;
 }
