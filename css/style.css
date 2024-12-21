@@ -1,8 +1,7 @@
 /* Style de base */
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  margin:0;
   background-color: #f4f4f4;
   color: #333;
 }
@@ -12,11 +11,42 @@ body {
   background: #333;
   color: #fff;
   padding: 60px 20px;
-  text-align: center;
+  height: auto;
 }
 
 #accueil h1 {
   font-size: 2.5em;
+  text-align: center;
+}
+
+#accueil p{
+  text-align: center;
+}
+
+#menuSelection{
+  background-color: #333;
+  border: none;
+  font-size: 26px;
+  margin-left: 0px;
+  position:relative;  
+  color: #ccc;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.sousMenu{
+  background-color: transparent;
+  border: none;
+  font-size: 26px;
+  margin-left: 0px;
+  position:relative;  
+  color: #ccc;
+  font-size: 1.2em;
+  display: none;
+  right :200px;
+  opacity: 0;
+  width:fit-content;
+  float:initial;
 }
 
 /* Section des projets */
@@ -41,12 +71,15 @@ body {
 #contact {
   padding: 40px 20px;
   text-align: center;
+  margin-top: 20px;
 }
 
 #contact form {
   display: inline-block;
   width: 300px;
+  transform: translateX(0%);
 }
+
 
 #contact input, #contact textarea {
   width: 100%;
