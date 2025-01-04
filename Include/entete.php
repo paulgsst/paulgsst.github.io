@@ -16,7 +16,7 @@
  <section id="accueil">
   <h1>Bienvenue sur mon Portfolio</h1>
   <p>Je m'appelle Paul Gresset, et je suis un développeur passionné.</p>
-  <input type='button' id='menuSelection' value = "Menu"></input></br>
+  <input type='button' id='menuSelection' value = "Menu "></input></br>
   <ul>
     <a href="index.php?gestion=<?php echo C_PROJET?>" class="sousMenu">Mes projets</a>
   </ul>
