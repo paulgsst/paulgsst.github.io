@@ -1,4 +1,4 @@
-<section id="contact">
+<section id="contactProjet">
         <h2>Contactez-moi</h2>
         <form action="https://formspree.io/f/movqjoee" method="POST">
             <label for="name">Nom:</label>

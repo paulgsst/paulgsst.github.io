@@ -6,8 +6,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       });
   });
 });
-
-
+/// Cette fonction permet de faire défiler le contenu du menu vers le bas de manière fluide.
 document.addEventListener('DOMContentLoaded',function()
 {
   $("[id='menuDeroulant']")
@@ -62,4 +61,27 @@ else{
 })
 
 
-})
+let descriptionProjet = $("[id = 'description'");
+let imgMenu = $("[id = 'imgMenu']");
+descriptionProjet.css('display','block');
+descriptionProjet.animate({opacity:1},1500);
+imgMenu.css('display','block');
+imgMenu.animate({opacity:1},1500);
+let contact = $("[id = 'contactProjet']");
+contact.animate({marginTop:80} , 700);
+let cliqueimgMenu = false;
+let descriptionMagasin = $("[id = 'descriptionMagasin']");
+imgMenu.on('click',function(){
+  if(!cliqueimgMenu){
+    descriptionMagasin.css('display','block');
+    descriptionMagasin.animate({opacity:1},1500);
+    cliqueimgMenu = true;
+  }
+  else{
+    descriptionMagasin.animate({opacity:0},1500);
+    descriptionMagasin.css('display','none');
+    cliqueimgMenu = false;
+  }
+
+
+})})

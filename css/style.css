@@ -72,6 +72,7 @@ body {
   padding: 40px 20px;
   text-align: center;
   margin-top: 20px;
+  position-area: bottom;
 }
 
 #contact form {
@@ -89,7 +90,38 @@ body {
   border-radius: 4px;
 }
 
-#contact button {
+#contactProjet button {
+  padding: 10px 20px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#contactProjet {
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 20px;
+  position-area: bottom;
+}
+
+#contactProjet form {
+  display: inline-block;
+  width: 300px;
+  transform: translateX(0%);
+}
+
+
+#contactProjet input, #contact textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#contactProjet button {
   padding: 10px 20px;
   border: none;
   background: #333;
@@ -112,3 +144,40 @@ input[id="menuDeroulant"]{
   
 }
 */
+
+#description {
+  display: none;
+  position: relative;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  opacity: 0;
+}
+
+#descriptionMagasin {
+  display: none;
+  position: relative;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  opacity: 0;
+}
+
+
+#descriptionMagasin img{
+  width: 340px;
+  position-area : center;}
+
+#imgMenu {  
+  display: none;
+  opacity: 0; 
+  background-color: #333;
+}
+
+#imgMenu img{  
+  width: 80px;
+}
