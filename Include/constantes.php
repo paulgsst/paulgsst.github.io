@@ -12,3 +12,5 @@ define('V_PROJET2',220);
 
 
 define('V_CV', 300);
+
+define('V_MOI', 400);

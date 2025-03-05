@@ -20,6 +20,11 @@ switch ($_REQUEST['gestion']){
         require "Vues/V_CV.php";
         require "Include/pied.php";
         break;
+    case V_MOI :
+        require "Include/entete.php";
+        require "Vues/V_Moi.php";
+        require "Include/pied.php";
+        break;
 }
 
 

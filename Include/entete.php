@@ -23,6 +23,9 @@
   <ul>
     <a href="index.php?gestion=<?php echo V_CV?>" class="sousMenu">Mon CV</a>
   </ul>
+  <ul>
+    <a href="index.php?gestion=<?php echo V_MOI?>" class="sousMenu">A propos de moi</a>
+  </ul>
   </select>
   <!--<input type = "button" value="Menu" id="menuDeroulant"></input>-->
         
