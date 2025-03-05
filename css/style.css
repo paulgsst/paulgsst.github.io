@@ -126,7 +126,30 @@ font-size: 20px;
 
 /* Styles pour la page à propos de moi*/
 
-.moi {
+#moi {
   text-align: center;
   margin-top: 10px;
+}
+
+#moi p{
+  font-size: 20px;
+  text-align : left;
+  margin-left: 150px;
+  /*border: 1px solid #333; 
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 5px;
+  max-width: 500px;
+  background-color: rgba(0, 0, 0, 0.089);
+  padding: 20px;*/
+}
+
+.encadrerTexte {
+  border: 1px solid #333; 
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 5px;
+  max-width: 500px;
+  background-color: rgba(0, 0, 0, 0.089);
+  padding: 20px;
 }

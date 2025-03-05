@@ -8,7 +8,7 @@
             <input type="email" id="email" name="email" required>
 
             <label for="message">Message:</label>
-            <textarea id="message" name="message" required>teljyfst</textarea>
+            <textarea id="message" name="message" required></textarea>
 
             <button type="submit">Envoyer</button>
         </form>
