@@ -165,13 +165,14 @@ input[id="menuDeroulant"]{
   font-size: 1.2em;
   text-align: center;
   opacity: 0;
+  margin-top: -55%;
 }
 
 
-#descriptionMagasin img{
+/*#descriptionMagasin img{
   width: 340px;
   position-area : center;}
-
+*/
 #imgMenu {  
   display: none;
   opacity: 0; 
@@ -179,5 +180,11 @@ input[id="menuDeroulant"]{
 }
 
 #imgMenu img{  
+  margin-left: 47%;
   width: 80px;
+}
+
+#imgMagasin{
+  width: 559px;
+  position-area : center;
 }

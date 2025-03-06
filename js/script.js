@@ -73,13 +73,15 @@ let cliqueimgMenu = false;
 let descriptionMagasin = $("[id = 'descriptionMagasin']");
 imgMenu.on('click',function(){
   if(!cliqueimgMenu){
-    descriptionMagasin.css('display','block');
-    descriptionMagasin.animate({opacity:1},1500);
+    descriptionMagasin.css('display','block').animate({opacity:1,marginTop:"0%"},1500);
     cliqueimgMenu = true;
   }
   else{
-    descriptionMagasin.animate({opacity:0},1500);
-    descriptionMagasin.css('display','none');
+    descriptionMagasin.animate({opacity:0,marginTop:"-55%"},1500,  function() {
+      descriptionMagasin.css('display', 'none');
+    });
+    
+    /*descriptionMagasin.delay(1500).css('display','none');*/
     cliqueimgMenu = false;
   }
 
