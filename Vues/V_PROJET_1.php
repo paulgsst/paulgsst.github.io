@@ -3,8 +3,8 @@
   Il s'agit d'un formulaire permettant de gérer les fournisseurs divers et variés d'un magasin de téléphonie.
   </p>
 </div>
-<div id='imgMenu'>
-  <img src="Images/fleche_bas.png">
+<div class='imgMenu'>
+  <img id='imgMenuFleche' src="Images/fleche_bas.png">
 </div>
 
 <div id='descriptionMagasin'>
@@ -22,4 +22,15 @@
     Voici donc un apperçu du schéma de la base de données : 
   </p>
   <img src="Images/mcd_schema_modern.png" width="1200px">
+<p>
+  Ensuite , j'ai commencé à développer l'application sur Visual Studio 2022 en utilisant le langage C# (C Sharp)
+</br>
+  Le menu principal se présente comme suivant : 
+</p>
+<img src="Images/projet1.png" width="560px"/>
+<p>
+  Il y a donc une partie destinée à la gestion de la base de données . 
+</br>
+  (Voici des exemples des menus de gestion)
+</p>
 </div>

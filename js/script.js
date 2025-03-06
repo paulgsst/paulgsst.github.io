@@ -62,7 +62,8 @@ else{
 
 
 let descriptionProjet = $("[id = 'description'");
-let imgMenu = $("[id = 'imgMenu']");
+let imgMenuFleche = $("[id = 'imgMenuFleche']");
+let imgMenu = $("[class = 'imgMenu']");
 descriptionProjet.css('display','block');
 descriptionProjet.animate({opacity:1},1500);
 imgMenu.css('display','block');
@@ -71,15 +72,17 @@ let contact = $("[id = 'contactProjet']");
 contact.animate({marginTop:80} , 700);
 let cliqueimgMenu = false;
 let descriptionMagasin = $("[id = 'descriptionMagasin']");
-imgMenu.on('click',function(){
+imgMenuFleche.on('click',function(){
   if(!cliqueimgMenu){
     descriptionMagasin.css('display','block').animate({opacity:1,marginTop:"0%"},1500);
     cliqueimgMenu = true;
+    imgMenuFleche.attr("src","Images/fleche_haut.png")
   }
   else{
-    descriptionMagasin.animate({opacity:0,marginTop:"-55%"},1500,  function() {
+    descriptionMagasin.animate({opacity:0,marginTop:"-89%"},1500,  function() {
       descriptionMagasin.css('display', 'none');
     });
+    imgMenuFleche.attr("src","Images/fleche_bas.png")
     
     /*descriptionMagasin.delay(1500).css('display','none');*/
     cliqueimgMenu = false;
