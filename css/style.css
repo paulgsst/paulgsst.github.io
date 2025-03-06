@@ -135,13 +135,13 @@ font-size: 20px;
   font-size: 20px;
   text-align : left;
   margin-left: 150px;
-  /*border: 1px solid #333; 
+  border: 1px solid #333; 
   padding: 10px;
   border-radius: 10px;
   border-width: 5px;
   max-width: 500px;
   background-color: rgba(0, 0, 0, 0.089);
-  padding: 20px;*/
+  padding: 20px;
 }
 
 .encadrerTexte {

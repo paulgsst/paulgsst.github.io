@@ -11,10 +11,7 @@ include "./Include/fonctions.inc.php";
     j'ai <?php echo monAge(9,5,2005) ?> ans et je suis actuellement en deuxième année de BTS SIO SLAM au lycée Victor Hugo à Marseille (13001)
 </P>
 <p id="texteAProposDeMoiPassions">
-    <span class="encadrerTexte">Je suis passionné par l'informatique et par la programmation .
-</br>
      En dehors des cours j'aime les jeux vidéo et le sport automobile .
-</span>
 </p>
 <img src="Sources/r25.jpg" width="200px" height="400px" position="relative"/>
 
