@@ -5,6 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "Launch lycée",
+            "url": "http://localhost/GRESSET/portfolio/paulgsst.github.io-main/index.php",
+            "webRoot": "${workspaceFolder}"
+        },
+
+        {
             "name": "Launch Chrome",
             "request": "launch",
             "type": "chrome",

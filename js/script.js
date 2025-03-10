@@ -60,6 +60,30 @@ else{
 }
 })
 
+let texteAProposDeMoiPresentation = $("[id='texteAProposDeMoiPresentation']");
+texteAProposDeMoiPresentation.on('mouseover' , function(){
+  texteAProposDeMoiPresentation.animate({fontSize: '25px', maxWidth : "600px", marginLeft : "100px", marginTop : "40px", marginBottom : "40px"},200)
+})
+texteAProposDeMoiPresentation.on('mouseleave' , function(){
+  texteAProposDeMoiPresentation.animate({fontSize: '20px', maxWidth : "500px", marginLeft : "150px", marginTop : "20px", marginBottom : "20px"},100)
+})
+
+let texteAProposDeMoiPassions = $("[id='texteAProposDeMoiPassions']");
+texteAProposDeMoiPassions.on('mouseover' , function(){
+  texteAProposDeMoiPassions.animate({fontSize: '25px', maxWidth : "600px", marginLeft : "100px", marginTop : "40px", marginBottom : "40px"},200)
+})
+texteAProposDeMoiPassions.on('mouseleave' , function(){
+  texteAProposDeMoiPassions.animate({fontSize: '20px', maxWidth : "500px", marginLeft : "150px", marginTop : "20px", marginBottom : "20px"},100)
+})
+
+let texteAProposDeMoiParcoursScolaire = $("[id='texteAProposDeMoiParcoursScolaire']");
+texteAProposDeMoiParcoursScolaire.on('mouseover' , function(){
+  texteAProposDeMoiParcoursScolaire.animate({fontSize: '25px', maxWidth : "600px", marginLeft : "100px", marginTop : "40px", marginBottom : "40px"},200)
+})
+texteAProposDeMoiParcoursScolaire.on('mouseleave' , function(){
+  texteAProposDeMoiParcoursScolaire.animate({fontSize: '20px', maxWidth : "500px", marginLeft : "150px", marginTop : "20px", marginBottom : "20px"},100)
+})
+
 
 let descriptionProjet = $("[id = 'description'");
 let imgMenuFleche = $("[id = 'imgMenuFleche']");
