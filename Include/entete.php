@@ -10,10 +10,12 @@
   <script src="./js/jquery-plugin.js"></script>   
   <script src="./js/jquery.animate-colors.js"></script>
   <script src="js/script.js"></script>
+ 
 </head>
 <body>
  <!-- Section d'accueil -->
- <section id="accueil">
+  <div id="accueil">
+ <section id="accueil2" style="height : 236.804px">
   <h1>Bienvenue sur mon Portfolio test</h1>
   <p>Je m'appelle Paul Gresset, et je suis un développeur passionné.</p>
   <input type='button' id='menuSelection' value = "Menu"></input></br>
@@ -27,7 +29,22 @@
     <a href="index.php?gestion=<?php echo V_MOI?>" class="sousMenu">A propos de moi</a>
   </ul>
   </select>
+  </div>
   <!--<input type = "button" value="Menu" id="menuDeroulant"></input>-->
         
     </section>
 
+    <script src="./js/three.min.js"></script>
+  <script src="./js/vanta.birds.min.js"></script>
+  <script>
+    VANTA.BIRDS({
+      el: "#accueil",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00
+    })
+  </script>

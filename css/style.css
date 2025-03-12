@@ -24,7 +24,7 @@ body {
 }
 
 #menuSelection{
-  background-color: #333;
+  background-color: #33333300;
   border: none;
   font-size: 26px;
   margin-left: 0px;
@@ -188,7 +188,7 @@ input[id="menuDeroulant"]{
 #imgMagasin{
   width: 559px;
   position-area : center;
-=======
+}
 /* Styles pour la page du CV */
 
 .CV {

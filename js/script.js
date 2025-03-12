@@ -43,18 +43,18 @@ leMenu.on('mouseleave',function(){
 
 let leMenuSelection = $("[id='menuSelection']");
 let leSousMenu = $("[class='sousMenu']");
-let unTest = $("section[id='accueil']")
+let unTest = $("section[id='accueil2']")
 leMenuSelection.on('click' ,function(){
   if(!clique){
   leMenuSelection.animate({color:'#FF0000'},200);
-  unTest.animate({height:284.375} ,500); 
+  /*unTest.animate({height:284.375} ,500); */
   leSousMenu.css('display','block');
   leSousMenu.animate({right:20 , opacity:1},480);
   clique = true;
 }
 else{
   leMenuSelection.animate({color:'#ffffff'},200);
-  unTest.animate({height:208.375} ,500);
+ /* unTest.animate({height:208.375} ,500);*/
   leSousMenu.animate({right:200 , opacity:0},480);
   clique = false;
 }
