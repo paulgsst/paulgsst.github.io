@@ -149,7 +149,7 @@ input[id="menuDeroulant"]{
 #description {
   display: none;
   position: relative;
-  background-color: #333;
+  background-color: #2f2f2f;
   color: #fff;
   padding: 10px;
   font-size: 1.2em;
@@ -160,7 +160,7 @@ input[id="menuDeroulant"]{
 #descriptionMagasin {
   display: none;
   position: relative;
-  background-color: #333;
+  background-color: #2f2f2f;
   color: #fff;
   padding: 10px;
   font-size: 1.2em;
@@ -177,7 +177,7 @@ input[id="menuDeroulant"]{
 .imgMenu {  
   display: none;
   opacity: 0; 
-  background-color: #333;
+  background-color: #2f2f2f;
 }
 
 .imgMenu img{  

@@ -36,15 +36,17 @@
 
     <script src="./js/three.min.js"></script>
   <script src="./js/vanta.birds.min.js"></script>
+  <script src="./js/vanta.clouds.min.js"></script>
   <script>
-    VANTA.BIRDS({
-      el: "#accueil",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00
+    VANTA.CLOUDS({
+  el: "#accueil",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  skyColor: 0xcf5454,
+  cloudColor: 0x9cb9e6,
+  speed: 0.70
     })
   </script>
