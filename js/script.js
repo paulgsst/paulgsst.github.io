@@ -53,7 +53,7 @@ leMenuSelection.on('click' ,function(){
   clique = true;
 }
 else{
-  leMenuSelection.animate({color:'#ffffff'},200);
+  leMenuSelection.animate({color:'#000000'},200);
  /* unTest.animate({height:208.375} ,500);*/
   leSousMenu.animate({right:200 , opacity:0},480);
   clique = false;
