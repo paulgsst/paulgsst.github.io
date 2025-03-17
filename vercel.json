@@ -2,7 +2,7 @@
     "version": 2,
     "functions": {
       "index.php": {
-        "runtime": "vercel-php@latest"
+        "runtime": "now-php@1.0.0"
       }
     }
   }
