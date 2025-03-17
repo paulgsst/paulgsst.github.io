@@ -9,7 +9,7 @@ body {
 /* Section d'accueil */
 #accueil {
   background: #333;
-  color: #fff;
+  color: #000000;
   padding: 60px 20px;
   height: auto;
 }
@@ -29,7 +29,7 @@ body {
   font-size: 26px;
   margin-left: 0px;
   position:relative;  
-  color: #ccc;
+  color: #000000;
   font-size: 2.5em;
   font-weight: bold;
 }
@@ -40,7 +40,7 @@ body {
   font-size: 26px;
   margin-left: 0px;
   position:relative;  
-  color: #ccc;
+  color: #000000;
   font-size: 1.2em;
   display: none;
   right :200px;
