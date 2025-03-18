@@ -1,7 +1,7 @@
 {
     "version": 2,
     "functions": {
-      "index.php": {
+      "api/index.php": {
         "runtime": "now-php@1.0.0"
       }
     }
