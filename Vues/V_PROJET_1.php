@@ -21,7 +21,7 @@
 </br>
     Voici donc un apperçu du schéma de la base de données : 
   </p>
-  <img src="Images/mld.png" id="mld">
+  <img src="Images/mld.PNG" id="mld">
 <p>
   Ensuite , j'ai commencé à développer l'application sur Visual Studio 2022 en utilisant le langage C# (C Sharp)
 </br>
