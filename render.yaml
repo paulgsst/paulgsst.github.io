@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: paulgsst-portfolio
+    runtime: docker
+    repo: https://github.com/paulgsst/paulgsst.github.io
+    region: oregon
+    plan: free
+    buildCommand: ""
+    startCommand: "apache2-foreground"
