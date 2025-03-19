@@ -134,3 +134,13 @@ imgMenuFleche.on('click',function(){
 
 
 })})
+
+function telechargerCV(){
+  const link = document.createElement("a");
+  link.href = "Sources/cv_gresset_paul.pdf";
+  link.download = "Sources/cv_gresset_paul.pdf";
+  link.style.display = "none";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
