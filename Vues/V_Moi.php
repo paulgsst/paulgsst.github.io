@@ -13,7 +13,6 @@ include "./Include/fonctions.inc.php";
 <p id="texteAProposDeMoiPassions">
      En dehors des cours j'aime les jeux vidéo et le sport automobile .
 </p>
-<img src="Sources/r25.jpg" width="200px" height="400px" position="relative"/>
 
 </br>
 <h1>Mon parcours scolaire</h1>

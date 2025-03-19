@@ -62,9 +62,9 @@ body {
 }
 
 #projets img {
-  width: 100%;
+  width: 150px;
   height: auto;
-  border-radius: 8px;
+  border-radius: 15px;
 }
 
 /* Section de contact */
