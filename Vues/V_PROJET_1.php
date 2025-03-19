@@ -21,13 +21,13 @@
 </br>
     Voici donc un apperçu du schéma de la base de données : 
   </p>
-  <img src="Images/mcd_schema_modern.png" width="1200px">
+  <img src="Images/mld.png" id="mld">
 <p>
   Ensuite , j'ai commencé à développer l'application sur Visual Studio 2022 en utilisant le langage C# (C Sharp)
 </br>
   Le menu principal se présente comme suivant : 
 </p>
-<img src="Images/projet1.png" width="560px"/>
+<img src="Images/projet1.png" id = "imgMenuApplication"/>
 <p>
   Il y a donc une partie destinée à la gestion de la base de données . 
 </br>
