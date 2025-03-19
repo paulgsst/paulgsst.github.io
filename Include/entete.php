@@ -17,7 +17,7 @@
  <!-- Section d'accueil -->
   <div id="accueil">
  <section id="accueil2" style="height : 236.804px">
-  <h1>Bienvenue sur mon Portfolio test</h1>
+  <h1>Bienvenue sur mon Portfolio</h1>
   <p>Je m'appelle Paul Gresset, et je suis un développeur passionné.</p>
   <input type='button' id='menuSelection' value = "Menu"></input></br>
   <ul>
