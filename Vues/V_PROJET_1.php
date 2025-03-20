@@ -19,18 +19,39 @@
     Ensuite on a parlé du projet de l'application , j'ai commencé par faire le modèle conceptuel des données afin de structurer la base de donnéees . 
 </br>
 </br>
+    Voici un diagramme de Gantt pour mieux comprendre le déroulé du stage
+    <p>
+      <a id="cliquezPourAgrandir" href = "Images/gantt-stage-1.PNG" target="_blank"><img src = "Images/gantt-stage-1.PNG" id="ganttStage1"></a>
+      <h6 id = "cliquezPourAgrandir">Cliquez pour agrandir</h6>
+      <img src = "Images/gantt-stage-1.PNG" id="ganttStage1Grand">
+      </p>
+</br>
+</br>
     Voici donc un apperçu du schéma de la base de données : 
   </p>
-  <img src="Images/mld.PNG" id="mld">
-<p>
-  Ensuite , j'ai commencé à développer l'application sur Visual Studio 2022 en utilisant le langage C# (C Sharp)
+  <a id="cliquezPourAgrandir" href = "Images/mld.PNG" target="_blank"><img src="Images/mld.PNG" id="mld"></a>
+  <h6 id = "cliquezPourAgrandir">Cliquez pour agrandir</h6>
+  <img src="Images/mld.PNG" id="mldGrand">
+  <p>
+  Ensuite , j'ai commencé à développer l'application sur Visual Studio 2022 en utilisant le langage C# (C Sharp),
+  c'est un choix de ma part car c'était le  langage avec lequel j'étais le plus à l'aise à ce moment là .
 </br>
   Le menu principal se présente comme suivant : 
 </p>
-<img src="Images/projet1.png" id = "imgMenuApplication"/>
+<a id="cliquezPourAgrandir" href = "Images/projet1.png" target="_blank"><img src="Images/projet1.png" id = "imgMenuApplication"/></a>
+<h6 id = "cliquezPourAgrandir">Cliquez pour agrandir</h6>
+<img src="Images/projet1.png" id = "imgMenuApplicationGrand"/>
 <p>
   Il y a donc une partie destinée à la gestion de la base de données . 
 </br>
-  (Voici des exemples des menus de gestion)
+  Il faut noter que l'aspect esthétique à été mit de coté afin de me concentrer sur l'efficacité de l'application ,
+  car mon temps était limité . 
 </p>
-</div>
+</br>
+  <p>
+    Ci-dessous un exemple d'une classe objet de l'application : 
+  </p>
+  <a id="cliquezPourAgrandir" href = "Images/classeCSharpExemple.png" target="_blank"><img src = "Images/classeCSharpExemple.png" id = "classeCSharpExemple" /></a>
+  <h6 id = "cliquezPourAgrandir">Cliquez pour agrandir</h6>
+  <img src = "Images/classeCSharpExemple.png" id = "classeCSharpExempleGrand" />
+  </div>
