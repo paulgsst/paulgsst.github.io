@@ -198,27 +198,37 @@ input[id="menuDeroulant"]{
 }
 
 #imgMagasin{
-  width: 559px;
+  width: 60%;
   position-area : center;
 }
 
-#imgMagasinGrand{
-  width: 559px;
-  display : block;
-  margin-left:21%;
-}
 /* Styles pour la page du CV */
 
 #mld{
   width : 87% ;
 }
 
+#mldGrand{
+  width : 87%;
+  display : block 
+}
+
 #imgMenuApplication{
   width : 82% ;
 }
 
+#imgMenuApplicationGrand{
+  width : 82%;
+  display : block
+}
+
 #classeCSharpExemple{
   width: 88%;
+}
+
+#classeCSharpExempleGrand{
+  width : 88%;
+  display : block
 }
 
 #cliquezPourAgrandir{
@@ -468,27 +478,39 @@ input[id="menuDeroulant"]{
 }
 
 #imgMagasin{
-  width: 300px;
+  width: 73%;
   position-area : center;
 }
 
-#imgMagasinGrand{
-  width: 300px;
-  display:none;
-  margin-left:21%;
-}
+
 
 #mld{
   width : 87% ;
+}
+
+#mldGrand{
+  width : 87%;
+  display : none 
 }
 
 #imgMenuApplication{
   width : 82% ;
 }
 
+#imgMenuApplicationGrand{
+  width : 82%;
+  display : none
+}
+
 #classeCSharpExemple{
   width: 88%;
 }
+
+#classeCSharpExempleGrand{
+  width : 88%;
+  display : none
+}
+
 
 #cliquezPourAgrandir{
   display: block;
