@@ -68,6 +68,16 @@ body {
   border-radius: 15px;
 }
 
+#ganttStage1 {
+  width : 90%;
+}
+
+#ganttStage1Grand{
+  width : 90%;
+  display:block;
+  margin-left:5%
+}
+
 /* Section de contact */
 #contact {
   padding: 40px 20px;
@@ -191,14 +201,28 @@ input[id="menuDeroulant"]{
   width: 559px;
   position-area : center;
 }
+
+#imgMagasinGrand{
+  width: 559px;
+  display : block;
+  margin-left:21%;
+}
 /* Styles pour la page du CV */
 
 #mld{
-  width : 300px ;
+  width : 87% ;
 }
 
 #imgMenuApplication{
-  width : 300px ;
+  width : 82% ;
+}
+
+#classeCSharpExemple{
+  width: 88%;
+}
+
+#cliquezPourAgrandir{
+  display: none;
 }
 
 .CV {
@@ -314,6 +338,16 @@ body {
   border-radius: 15px;
 }
 
+#ganttStage1 {
+  width : 90%;
+}
+
+#ganttStage1Grand{
+  width : 90%;
+  display:none;
+  margin-left:5%;
+}
+
 /* Section de contact */
 #contact {
   padding: 40px 20px;
@@ -349,6 +383,7 @@ body {
 
 #contactProjet {
   padding: 40px 20px;
+  padding-left: 5px;
   text-align: center;
   margin-top: 20px;
   position-area: bottom;
@@ -356,7 +391,7 @@ body {
 
 #contactProjet form {
   display: inline-block;
-  width: 300px;
+  width: 250px;
   transform: translateX(0%);
 }
 
@@ -437,13 +472,28 @@ input[id="menuDeroulant"]{
   position-area : center;
 }
 
+#imgMagasinGrand{
+  width: 300px;
+  display:none;
+  margin-left:21%;
+}
+
 #mld{
-  width : 300px ;
+  width : 87% ;
 }
 
 #imgMenuApplication{
-  width : 300px ;
+  width : 82% ;
 }
+
+#classeCSharpExemple{
+  width: 88%;
+}
+
+#cliquezPourAgrandir{
+  display: block;
+}
+
 /* Styles pour la page du CV */
 
 .CV {
