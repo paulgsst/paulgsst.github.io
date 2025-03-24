@@ -6,7 +6,7 @@
             <p>Projet Fournisseur Reconnect</p>
         </div>
         <div class="projet">
-            <img src="images/projet2.jpg" alt="Projet 2">
+            <a href="index.php?gestion=<?php echo C_PROJET?>&action=<?php echo V_PROJET2?>"><img src="images/projet2.jpg" alt="Projet 2"></a>
             <h3>Projet 2</h3>
             <p>Description du projet 2.</p>
         </div>
