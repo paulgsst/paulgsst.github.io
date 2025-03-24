@@ -210,7 +210,9 @@ input[id="menuDeroulant"]{
 
 #mldGrand{
   width : 87%;
-  display : block 
+  display : block ;
+  margin-left : 6.5%;
+
 }
 
 #imgMenuApplication{
@@ -219,7 +221,8 @@ input[id="menuDeroulant"]{
 
 #imgMenuApplicationGrand{
   width : 82%;
-  display : block
+  display : block;
+  margin-left : 9%;
 }
 
 #classeCSharpExemple{
@@ -228,7 +231,8 @@ input[id="menuDeroulant"]{
 
 #classeCSharpExempleGrand{
   width : 88%;
-  display : block
+  display : block;
+  margin-left : 6.5%;
 }
 
 #cliquezPourAgrandir{
@@ -490,7 +494,8 @@ input[id="menuDeroulant"]{
 
 #mldGrand{
   width : 87%;
-  display : none 
+  display : none; 
+  margin-left : 6.5%;
 }
 
 #imgMenuApplication{
@@ -499,7 +504,8 @@ input[id="menuDeroulant"]{
 
 #imgMenuApplicationGrand{
   width : 82%;
-  display : none
+  display : none;
+  margin-left : 6.5%;
 }
 
 #classeCSharpExemple{
@@ -508,7 +514,8 @@ input[id="menuDeroulant"]{
 
 #classeCSharpExempleGrand{
   width : 88%;
-  display : none
+  display : none;
+  margin-left : 6.5%;
 }
 
 
