@@ -54,4 +54,18 @@
   <a id="cliquezPourAgrandir" href = "Images/classeCSharpExemple.png" target="_blank"><img src = "Images/classeCSharpExemple.png" id = "classeCSharpExemple" /></a>
   <h6 id = "cliquezPourAgrandir">Cliquez pour agrandir</h6>
   <img src = "Images/classeCSharpExemple.png" id = "classeCSharpExempleGrand" />
+  </br>
+  </br>  
+  <P>
+    Et voici maintenant un exemple d'une méthode de classe : 
+  </p>
+  <a id = "cliquezPourAgrandir" href = "Images/exempleMethode.png" target="_blank"><img src = "Images/exempleMethode.png" id = "methodeExemple" /></a>
+  <h6 id = "cliquezPourAgrandir">Cliquez pour agrandir</h6>
+  <img src = "Images/exempleMethode.png" id = "methodeExempleGrand" />
+</br>
+</br>
+  <p>
+    Pour conclure , durant ce stage j'ai majoritairement travaillé seul , étant donné que j'étais le seul développeur de l'entreprise .
+    Je me suis donc débrouillé seul et ça m'a permit de découvrir toute les faces de la gestion de projet .
+    J'ai pu terminer cette application et les patrons ont été satisfaits .
   </div>

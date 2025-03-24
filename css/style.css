@@ -235,6 +235,16 @@ input[id="menuDeroulant"]{
   margin-left : 6.5%;
 }
 
+#methodeExemple{
+  width : 85%;
+}
+
+#methodeExempleGrand{
+  width : 85%;
+  display : block;
+  margin-left: 7%;
+}
+
 #cliquezPourAgrandir{
   display: none;
 }
@@ -518,6 +528,14 @@ input[id="menuDeroulant"]{
   margin-left : 6.5%;
 }
 
+#methodeExemple{
+  width : 85%;
+}
+
+#methodeExempleGrand{
+  width : 85%;
+  display : none;
+}
 
 #cliquezPourAgrandir{
   display: block;
