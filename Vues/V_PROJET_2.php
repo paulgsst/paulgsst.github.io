@@ -22,25 +22,37 @@
     <p>
         Je vais vous montrer un exemple de mission que l'on m'a confier :
     </p>
-    <img src="Images/stage2/datachecker.png" id="imgDataChecker" alt="">
+    <a id="cliquezPourAgrandir" href = "Images/stage2/datachecker.png" target="_blank"><img src="Images/stage2/datachecker.png" id="imgDataChecker" alt=""></a>
+    <h6 id = "cliquezPourAgrandir">Cliquez pour agrandir</h6>
+    <img src="Images/stage2/datachecker.png" id="imgDataCheckerGrand" alt="">
     <p>
         J'ai du réaliser ce tableau permettant de voir les différentes données liées au publicités . 
         Ce tableau à été fait avec Vue.js et Vuetify qui sont des framework JavaScript . 
         L'extrait de code ci dessous est celui du tableau :
     </p>
-    <img src="Images/stage2/codeDatachecker.png" id="imgTabDatachecker" alt="">
+    <a id="cliquezPourAgrandir" href = "Images/stage2/codeDatachecker.png" target="_blank"><img src="Images/stage2/codeDatachecker.png" id="imgTabDatachecker" alt=""></a>
+    <h6 id = "cliquezPourAgrandir">Cliquez pour agrandir</h6>
+    <img src="Images/stage2/codeDatachecker.png" id="imgTabDatacheckerGrand" alt="">
     <p>
         Et voici la fenêtre de modification/ajout de données dont le code est encore en dessous : 
     </p>
-    <img src="Images/stage2/tabModifDatachecker.png" id="imgTabModifDatachecker" alt="">
+    <a id="cliquezPourAgrandir" href = "Images/stage2/tabModifDatachecker.png" target="_blank"><img src="Images/stage2/tabModifDatachecker.png" id="imgTabModifDatachecker" alt=""></a>
+    <h6 id = "cliquezPourAgrandir">Cliquez pour agrandir</h6>
+    <img src="Images/stage2/tabModifDatachecker.png" id="imgTabModifDatacheckerGrand" alt="">
     <br>
-    <img src="Images/stage2/codeModifDatachecker.png" id="imgCodeModifDatachecker" alt="">
+    <a id="cliquezPourAgrandir" href = "Images/stage2/codeModifDatachecker.png" target="_blank"><img src="Images/stage2/codeModifDatachecker.png" id="imgCodeModifDatachecker" alt=""></a>
+    <h6 id = "cliquezPourAgrandir">Cliquez pour agrandir</h6>
+    <img src="Images/stage2/codeModifDatachecker.png" id="imgCodeModifDatacheckerGrand" alt="">
     <p>
         Et enfin voici le code permettant d'ouvrir cette fenêtre de modification et d'enregistrer les nouvelles données :
     </p>
-    <img src="Images/stage2/codeOuvrirMenuModif.png" id="imgCodeOuvrirMenuModif"  alt="">
+    <a id="cliquezPourAgrandir" href = "Images/stage2/codeOuvrirMenuModif.png" target="_blank"><img src="Images/stage2/codeOuvrirMenuModif.png" id="imgCodeOuvrirMenuModif" alt=""></a>
+    <h6 id = "cliquezPourAgrandir">Cliquez pour agrandir</h6>
+    <img src="Images/stage2/codeOuvrirMenuModif.png" id="imgCodeOuvrirMenuModifGrand"  alt="">
     <br>
-    <img src="Images/stage2/codeSaveModifDatachecker.png" id="imgCodeSaveModifDatachecker" alt="">
+    <a id="cliquezPourAgrandir" href = "Images/stage2/codeSaveModifDatachecker.png" target="_blank"><img src="Images/stage2/codeSaveModifDatachecker.png" id="imgCodeSaveModifDatachecker" alt=""></a>
+    <h6 id = "cliquezPourAgrandir">Cliquez pour agrandir</h6>
+    <img src="Images/stage2/codeSaveModifDatachecker.png" id="imgCodeSaveModifDatacheckerGrand" alt="">
     <p>
         L'équipe de développement de l'entreprise travaille selon la méthode agile . 
         <br>

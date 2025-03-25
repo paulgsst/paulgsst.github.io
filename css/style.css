@@ -261,6 +261,18 @@ input[id="menuDeroulant"]{
   width : 42%;
 }
 
+#imgTabModifDatachecker{
+  width : 33%;
+}
+
+#imgCodeOuvrirMenuModif{
+  width : 42%;
+}
+
+#imgCodeSaveModifDatachecker{
+  width: 38%;
+}
+
 #cliquezPourAgrandir{
   display: none;
 }
@@ -554,44 +566,65 @@ input[id="menuDeroulant"]{
 }
 
 #imgLesDocks{
-  width:50%;
+  width:81%;
 }
 
 #imgDataChecker{
-  width : 55%;
+  width : 88%;
+}
+
+#imgDataCheckerGrand{
+  width : 88%;
+  display: none;
 }
 
 #imgTabDatachecker{
-  width : 55%;
+  width : 85%;
 }
 
-#imgTabModifDatachecker{
-  width : 33%;
+#imgTabDatacheckerGrand{
+  width : 85%;
+  display: none;
 }
 
+
 #imgTabModifDatachecker{
-  width : 33%;
+  width : 77%;
+}
+
+#imgTabModifDatacheckerGrand{
+  width : 77%;
+  display: none;
 }
 
 #imgCodeModifDatachecker{
-  width : 42%;
+  width : 87%;
+}
+
+#imgCodeModifDatacheckerGrand{
+  width : 87%;
+  display: none;
 }
 
 #imgCodeOuvrirMenuModif{
-  width : 42%;
+  width : 87%;
 }
 
-#imgCodeOuvrirMenuModif{
-  width : 42%;
-}
-
-#imgCodeSaveModifDatachecker{
-  width: 38%;
+#imgCodeOuvrirMenuModifGrand{
+  width : 87%;
+  display: none;
 }
 
 #imgCodeSaveModifDatachecker{
-  width: 38%;
+  width: 87%;
 }
+
+#imgCodeSaveModifDatacheckerGrand{
+  width: 87%;
+  display: none;
+}
+
+
 
 #cliquezPourAgrandir{
   display: block;
