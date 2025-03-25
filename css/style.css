@@ -245,6 +245,22 @@ input[id="menuDeroulant"]{
   margin-left: 7%;
 }
 
+#imgLesDocks{
+  width:50%;
+}
+
+#imgDataChecker{
+  width : 55%;
+}
+
+#imgTabDatachecker{
+  width : 55%;
+}
+
+#imgCodeModifDatachecker{
+  width : 42%;
+}
+
 #cliquezPourAgrandir{
   display: none;
 }
@@ -535,6 +551,46 @@ input[id="menuDeroulant"]{
 #methodeExempleGrand{
   width : 85%;
   display : none;
+}
+
+#imgLesDocks{
+  width:50%;
+}
+
+#imgDataChecker{
+  width : 55%;
+}
+
+#imgTabDatachecker{
+  width : 55%;
+}
+
+#imgTabModifDatachecker{
+  width : 33%;
+}
+
+#imgTabModifDatachecker{
+  width : 33%;
+}
+
+#imgCodeModifDatachecker{
+  width : 42%;
+}
+
+#imgCodeOuvrirMenuModif{
+  width : 42%;
+}
+
+#imgCodeOuvrirMenuModif{
+  width : 42%;
+}
+
+#imgCodeSaveModifDatachecker{
+  width: 38%;
+}
+
+#imgCodeSaveModifDatachecker{
+  width: 38%;
 }
 
 #cliquezPourAgrandir{
