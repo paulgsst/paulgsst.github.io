@@ -144,3 +144,13 @@ function telechargerCV(){
   link.click();
   document.body.removeChild(link);
 }
+
+function telechargerTS(){
+  const link = document.createElement("a");
+  link.href = "Sources/tableau_de_synthèse.pdf";
+  link.download = "/Sources/tableau_de_synthèse.pdf";
+  link.style.display = "none";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
