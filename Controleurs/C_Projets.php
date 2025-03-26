@@ -20,7 +20,7 @@ switch($_REQUEST['action']){
 
     case V_PROJET2:
         require "Include/entete.php";
-        require "Vues/V_Projet_2.php";
+        require "Vues/V_PROJET_2.php";
         require "Include/pied.php";
         break;
 
