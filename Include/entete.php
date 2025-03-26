@@ -23,7 +23,7 @@
     <a href="index.php?gestion=<?php echo C_PROJET?>" class="sousMenu">Mes projets</a>
   </ul>
   <ul>
-    <a href="index.php?gestion=<?php echo V_CV?>" class="sousMenu">Mon CV</a>
+    <a href="index.php?gestion=<?php echo V_CV?>" class="sousMenu">Mes documents</a>
   </ul>
   <ul>
     <a href="index.php?gestion=<?php echo V_MOI?>" class="sousMenu">A propos de moi</a>
